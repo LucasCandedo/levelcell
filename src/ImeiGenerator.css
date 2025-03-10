@@ -1,0 +1,72 @@
+div, input, p, textarea {
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.imei-generator {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    max-width: 800px;
+    width: 100%;
+    gap: .3rem;
+    min-height: 600px;
+    margin-top: 5rem;
+}
+
+.imei-generator-title {
+    color: #333;
+    font-weight: 600;
+}
+
+.imei-generator-input {
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.2rem 0.4rem;
+    font-size: 1rem;
+    margin-bottom: .3rem;
+    font-family: Poppins;
+}
+
+.imei-error-message {
+    color: rgb(199, 54, 54);
+}
+
+.imei-generator-div{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 100%;
+}
+
+.btn {
+    width: fit-content;
+    font-size: 1rem;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    margin-left: auto;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #261a3b;
+    color: #fff;
+    transition: .3s ease background-color,
+                .3s ease color;
+}
+
+.imei-generator-console {
+    font-size: 1em;
+}
+
+#imei-generator-console:disabled {
+    background-color: #191029;
+    border: 1px solid #333;
+    border-radius: 8px;
+    resize: none;
+    color: #ccc;
+    padding: .3rem .5rem;
+    min-height: 200px;
+}

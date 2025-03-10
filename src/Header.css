@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Poppins, sans-serif;
+  padding: 1rem;
+
+  border-bottom: 1px solid #0004;
+}
+
+.levelcell_logo {
+  font-size: 1.2rem;
+}
+
+.list {
+  display: flex;
+  gap: 1rem;
+}
+
+.item {
+  list-style: none;
+}
+
+.navbar-btn {
+  text-decoration: none;
+  color: #333
+}
